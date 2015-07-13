@@ -22,7 +22,7 @@ RUN go get github.com/tools/godep
 # Recompile the standard library without CGO
 RUN CGO_ENABLED=0 go install -a std
 
-MAINTAINER dahernan@gmail.com
+MAINTAINER davesaddress.nz@gmail.com
 ENV APP_DIR $GOPATH{{.Appdir}}
  
 # Set the entrypoint 
