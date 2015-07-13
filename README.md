@@ -17,7 +17,7 @@ The Dockerfile is inspired by this two blog post.
 
 ## Install
 ```
-$ go get github.com/dahernan/godockerize
+$ go get github.com/dmcd/godockerize
 
 ```
 
